@@ -1,12 +1,12 @@
-# DP-Means Algorithm for Students Prior Knolwedge Assessment
+<h2>  DP-Means Algorithm for Students Prior Knolwedge Assessment</h2>
 
-# <h2>Description </h2>
+<h3>Description </h3>
 This is the Python implementation of DP-means algorithm as described in the paper " Clustering Students Based on Their Prior Knowledge".
 The DP-means algorithm, as described by Kullis & Jordan  <a href="https://arxiv.org/abs/1111.0352">[Kullis et al.,2012]</a> , is a hard-clustering approximation of nonparametric Bayesian models.
 The input consists of pre-test answer choices of the students. Since the pre-test contains 35 questions, each such response vector 
 contains 35 entries corresponding to each answer choice picked by a student.
 
-# <h2>Usage</h2> 
+<h3>Usage</h3> 
 
     import pandas as pd
     #Read data from the excel file
@@ -48,7 +48,7 @@ contains 35 entries corresponding to each answer choice picked by a student.
 
     print(scores_index)
 
-<h2>Citation</h2>
+<h3>Citation</h3>
 @Misc{EDM2019,
       authors= {Nisrine Ait Khayi, Vasile Rus},
       title = {Clustering Students Based on Their Prior Knowledge},
